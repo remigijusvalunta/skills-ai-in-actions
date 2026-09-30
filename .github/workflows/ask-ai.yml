@@ -15,8 +15,7 @@ jobs:
         uses: actions/ai-inference@v2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          prompt: |
-            Give me a programming joke.
+          prompt: Give me a programming joke.
 
       - name: Display AI Response
         run: |
